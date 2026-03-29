@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 // ⚠️ URL ของ Backend
-const API_BASE_URL = "http://localhost:5001"; 
+const API_BASE_URL = "https://backend02-2zhd.onrender.com"; 
 
 export default function App() {
   const [loginEmail, setLoginEmail] = useState(localStorage.getItem("capu_user") || "");
